@@ -1,0 +1,23 @@
+## Build
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.lscache
+.env
+
+## IDE
+.vs/
+.idea/
+*.swp
+*~
+
+## Secrets & local config
+appsettings.*.json
+!appsettings.json
+secrets.json
+
+## OS
+.DS_Store
+Thumbs.db
